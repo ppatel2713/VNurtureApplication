@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AC789301CA14BA0001A82AE /* AddTutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7892F1CA14BA0001A82AE /* AddTutor.m */; };
 		9ACA5AA71C9FE2B400703147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA5AA61C9FE2B400703147 /* main.m */; };
 		9ACA5AAA1C9FE2B400703147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA5AA91C9FE2B400703147 /* AppDelegate.m */; };
-		9ACA5AAD1C9FE2B400703147 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA5AAC1C9FE2B400703147 /* ViewController.m */; };
-		9ACA5AB01C9FE2B400703147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACA5AAE1C9FE2B400703147 /* Main.storyboard */; };
 		9ACA5AB21C9FE2B400703147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACA5AB11C9FE2B400703147 /* Images.xcassets */; };
 		9ACA5AB51C9FE2B400703147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACA5AB31C9FE2B400703147 /* LaunchScreen.xib */; };
 		9ACA5AC11C9FE2B400703147 /* VNurture_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA5AC01C9FE2B400703147 /* VNurture_AppTests.m */; };
+		9ACA5ACB1C9FE3C100703147 /* HR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACA5ACA1C9FE3C100703147 /* HR.storyboard */; };
+		9ACA5AD11C9FE43100703147 /* AddStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA5AD01C9FE43100703147 /* AddStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9AC7892E1CA14BA0001A82AE /* AddTutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTutor.h; sourceTree = "<group>"; };
+		9AC7892F1CA14BA0001A82AE /* AddTutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTutor.m; sourceTree = "<group>"; };
 		9ACA5AA11C9FE2B400703147 /* VNurture App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VNurture App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACA5AA51C9FE2B400703147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ACA5AA61C9FE2B400703147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9ACA5AA81C9FE2B400703147 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9ACA5AA91C9FE2B400703147 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9ACA5AAB1C9FE2B400703147 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9ACA5AAC1C9FE2B400703147 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9ACA5AAF1C9FE2B400703147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ACA5AB11C9FE2B400703147 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9ACA5AB41C9FE2B400703147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9ACA5ABA1C9FE2B400703147 /* VNurture AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VNurture AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACA5ABF1C9FE2B400703147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ACA5AC01C9FE2B400703147 /* VNurture_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNurture_AppTests.m; sourceTree = "<group>"; };
+		9ACA5ACA1C9FE3C100703147 /* HR.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = HR.storyboard; path = ../HR.storyboard; sourceTree = "<group>"; };
+		9ACA5ACF1C9FE43100703147 /* AddStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddStudent.h; sourceTree = "<group>"; };
+		9ACA5AD01C9FE43100703147 /* AddStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,13 @@
 		9ACA5AA31C9FE2B400703147 /* VNurture App */ = {
 			isa = PBXGroup;
 			children = (
+				9ACA5ACA1C9FE3C100703147 /* HR.storyboard */,
+				9AC7892E1CA14BA0001A82AE /* AddTutor.h */,
+				9AC7892F1CA14BA0001A82AE /* AddTutor.m */,
+				9ACA5ACF1C9FE43100703147 /* AddStudent.h */,
+				9ACA5AD01C9FE43100703147 /* AddStudent.m */,
 				9ACA5AA81C9FE2B400703147 /* AppDelegate.h */,
 				9ACA5AA91C9FE2B400703147 /* AppDelegate.m */,
-				9ACA5AAB1C9FE2B400703147 /* ViewController.h */,
-				9ACA5AAC1C9FE2B400703147 /* ViewController.m */,
-				9ACA5AAE1C9FE2B400703147 /* Main.storyboard */,
 				9ACA5AB11C9FE2B400703147 /* Images.xcassets */,
 				9ACA5AB31C9FE2B400703147 /* LaunchScreen.xib */,
 				9ACA5AA41C9FE2B400703147 /* Supporting Files */,
@@ -199,7 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ACA5AB01C9FE2B400703147 /* Main.storyboard in Resources */,
+				9ACA5ACB1C9FE3C100703147 /* HR.storyboard in Resources */,
 				9ACA5AB51C9FE2B400703147 /* LaunchScreen.xib in Resources */,
 				9ACA5AB21C9FE2B400703147 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ACA5AAD1C9FE2B400703147 /* ViewController.m in Sources */,
+				9AC789301CA14BA0001A82AE /* AddTutor.m in Sources */,
 				9ACA5AAA1C9FE2B400703147 /* AppDelegate.m in Sources */,
+				9ACA5AD11C9FE43100703147 /* AddStudent.m in Sources */,
 				9ACA5AA71C9FE2B400703147 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +250,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9ACA5AAE1C9FE2B400703147 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9ACA5AAF1C9FE2B400703147 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9ACA5AB31C9FE2B400703147 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +410,7 @@
 				9ACA5AC61C9FE2B400703147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ACA5AC71C9FE2B400703147 /* Build configuration list for PBXNativeTarget "VNurture AppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +419,7 @@
 				9ACA5AC91C9FE2B400703147 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
